@@ -1,6 +1,7 @@
 //----------lesson27--Modules--main----
 //----Resources--------------------
 
+/*
 provider "aws" {
   region = "ap-southeast-1"
 }
@@ -12,6 +13,7 @@ terraform {
     region = "ap-southeast-1"
   }
 }
+*/
 //--------------------------------------------------------
 
 data "aws_availability_zones" "avalable" {} # request AZ data
