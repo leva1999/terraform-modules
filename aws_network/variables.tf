@@ -16,8 +16,8 @@ variable "public_subnet_cidrs" {
 variable "private_subnet_cidrs" {
 
   default = [
-    "10.0.11.0/24",
-    "10.0.22.0/24",
+    "10.1.11.0/24",
+    "10.2.22.0/24",
     #"10.0.33.0/24"
   ]
 }
